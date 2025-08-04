@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4ECE2"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:textSize="64sp"
+        android:textColor="#A87F75"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerText"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:backgroundTint="#A87F75"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:backgroundTint="#6C5B4C"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:backgroundTint="#D19B93"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_margin="8dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
