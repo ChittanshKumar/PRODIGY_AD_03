@@ -1,4 +1,4 @@
-#Basic Stopwatch App
+# Basic Stopwatch App
 
 A simple Android stopwatch application developed as part of the Prodigy Infotech Android Development Internship.
 
